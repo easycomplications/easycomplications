@@ -1,0 +1,30 @@
+*
+{
+margin: 0; padding: 0;
+}
+
+header
+{
+background-color: #ffe6e6;
+height: 160vh;
+background-size: cover;
+background-position: centre;
+}
+
+.logo img
+{
+width: 300px;
+height: 300px;
+float: left;
+}
+
+p1, p2, p3, p4
+{
+color: maroon; 
+text-decoration: none;
+padding: 10px 10px;
+font-family: "Comic Sans", cursive;
+font-size: 22px;
+line-height: 1.9
+}
+

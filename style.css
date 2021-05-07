@@ -1,0 +1,54 @@
+*
+{
+margin: 0; padding: 0;
+}
+
+header
+{
+background-image: url(Background.jpg);
+height: 160vh;
+background-size: cover;
+background-position: centre;
+}
+.main-nav
+{
+float: bottom;
+list-style: none;
+margin-left: 40px;
+}
+
+.main-nav li
+{
+display: inline-grid;
+}
+
+.main-nav li a 
+{
+color: maroon; 
+text-decoration: none;
+padding: 0px 10px;
+font-family: "Lucida Handwriting", cursive;
+font-size: 26px;
+border: 1px;
+border-style: inset;
+outline-color: maroon;
+background-color: #fffaf0;
+}
+
+.main-nav li.active a
+{
+border: 3px maroon;
+}
+
+.main-nav li a:hover
+{
+border: 3px maroon; 
+}
+
+.logo img
+{
+width: 400px;
+height: 400px;
+float: left;
+}
+*
